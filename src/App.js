@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+import Carousel from './components/Carousel';
+import Accordion from './components/Accordion';
+import Footer from './components/Footer';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    console.log('render')
+    return (
+        <div className="h-screen w-screen flex justify-center">
+            <div className="flex flex-col items-start grow max-w-[375px] bg-[#F5F5F5]">
+                <Header />
+                <Carousel />
+                <Accordion />
+                <Footer />
+            </div>
+        </div>
+    );
 }
 
 export default App;
