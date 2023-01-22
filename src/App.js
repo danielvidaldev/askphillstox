@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { Fragment } from 'react';
+import { useState, Fragment } from 'react';
 
 import Header from './components/Header';
 import CarouselContainer from './components/Carousel';
