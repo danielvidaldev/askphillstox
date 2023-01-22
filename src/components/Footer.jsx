@@ -1,4 +1,4 @@
-import arrowDown from '../images/arrowDown.svg';
+import arrowDown from '../icons/arrowDown.svg';
 
 const Footer = () => {
     const links = [
